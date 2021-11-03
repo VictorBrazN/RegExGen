@@ -21,6 +21,7 @@ header{
 }
 
 section{
+    display: flex;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 15px;
@@ -30,8 +31,15 @@ section{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.644);
 }
 
-.navbar navbar-dark bg-dark {
-    font: white
+#copy {
+    height: 30px;
+    width: 30px;
+    padding: 5;
+}
+
+#copyimg{
+    height: 20px;
+    width: 20px;
 }
 
 footer{
