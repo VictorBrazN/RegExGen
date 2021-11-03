@@ -24,9 +24,43 @@
     <header>
       <h1>RegExGen</h1>
     </header>
+
   <section>
+    
     <div class="box">
+
+      <p>Selecione uma opção:</p>
+
+      <div>
+        <input type="radio" id="cpf" name="drone" value="cpf"
+               checked>
+        <label for="cpf">Pontuador de campo CPF.</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="rg" name="drone" value="rg">
+        <label for="rg">Pontuador de campo RG.</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="busca" name="drone" value="busca">
+        <label for="busca">Busca por palavras específicas.</label>
+      </div>
+
+      <div class="input-group mb-3">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon1" onclick="gerar()">Gerar RegEx</button>
+        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" id='restxt'>
+       
+
+        <button id="copy"> <img src="https://cdn-icons-png.flaticon.com/512/178/178921.png" id='copyimg'> </button>
+
+      </div>
+
     </div>
+
+
+
+
   </section>
 
 
